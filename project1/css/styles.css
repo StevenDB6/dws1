@@ -50,7 +50,16 @@ ul {
 	border-bottom: 1px solid #ffff00;
 	padding: 15px;
 	margin: 0 auto;
+	list-style-type: none;
 }
+
+/* align the links */
+li {
+display: inline-block;
+margin: 0 6px;
+
+}
+
 
 /* Float the image from the left.*/
 
@@ -58,9 +67,9 @@ ul {
 	float: left;
 	margin: 20px;
 }
-
+/*	Links	*/
 a:visited {
-	color: white;
+	color: yellow;
 }
 
 a:hover {
@@ -70,10 +79,10 @@ a:hover {
 
 a:active {
  
- 	color: yellow;
+ 	color: white;
 
 }
-
+/* 	Main Picture	*/
 figure	{
 
 	text-align: center;
