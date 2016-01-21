@@ -17,7 +17,7 @@ body {
 }
 
 /* h2 and h3 font color change.*/
- h2, h3 {
+ h2, h3, h4 {
 	color: #ffffff;
 }
 
@@ -37,7 +37,7 @@ h1 {
 }
 
 /* Change the font size, and center text of the level two and three header.*/
-h2, h3 {
+h2, h3, h4 {
 	font-size: 30px;
 	text-align: center;
 }
@@ -69,17 +69,17 @@ margin: 0 6px;
 }
 /*	Links	*/
 a:visited {
-	color: yellow;
+	color: #ffff00;
 }
 
 a:hover {
-	color: yellow;
+	color: #ffff00;
 	text-decoration: none;
 }
 
 a:active {
  
- 	color: white;
+ 	color: #ffffff;
 
 }
 /* 	Main Picture	*/
