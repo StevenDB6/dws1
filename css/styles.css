@@ -36,7 +36,7 @@ h1 {
 	
 }
 
-/* Change the font size, and center text of the level two and three header.*/
+/* Change the font size, and center text of h2, h3, h4.*/
 h2, h3, h4 {
 	font-size: 30px;
 	text-align: center;
@@ -51,6 +51,7 @@ ul {
 	padding: 15px;
 	margin: 0 auto;
 	list-style-type: none;
+	color: #ffff00;
 }
 
 /* align the links */
@@ -86,4 +87,8 @@ a:active {
 figure	{
 
 	text-align: center;
+}
+
+table {
+
 }
