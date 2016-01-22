@@ -13,11 +13,12 @@ body {
 /* change the background, level one- three heading color, and strong word color.*/
 
 #container {
-	border: 3px solid #ffff00;
+	border: 6px solid #000;
 	padding: 10px;
 	background-image: url("../images/group_prayer.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	
 }
 
 
