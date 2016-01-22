@@ -26,18 +26,13 @@ body {
 
 /* Columns 1 of 2 and 2 of 2*/
 
-
 #column1of2 {
-	background-color: #ffff00;
-	float: left;
-	margin-left: 10px;
-	margin: 50px;
+	margin: 60px;
 }
 
 #column2of2 {
-	margin-left: 10px;
-	margin: 50px;
-	
+	text-align: center;
+	margin: 60px;
 }
 
 
@@ -109,10 +104,9 @@ a:active {
 }
 /* 	Main Picture	*/
 figure	{
-
 	text-align: center;
+	text-shadow: 2px 2px 4px #ffff00;
+	font-size: 1.2em
+	
 }
 
-table {
-
-}
