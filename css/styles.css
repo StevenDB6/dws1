@@ -1,6 +1,6 @@
 p {
 	color: #ffff00;
-	text-align: center;
+	font-size: 1.5em;
 	
 }
 
@@ -13,14 +13,32 @@ body {
 
 #container {
 	border: 3px solid #ffff00;
-	background-color: #000000;
 	padding: 10px;
+	background-image: url("../images/group_prayer.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-/* h2 and h3 font color change.*/
- h2, h3, h4 {
-	color: #ffffff;
+
 }
+
+/* Columns 1 of 2 and 2 of 2*/
+
+
+#column1of2 {
+	background-color: #ffff00;
+	float: left;
+	margin-left: 10px;
+	margin: 50px;
+}
+
+#column2of2 {
+	margin-left: 10px;
+	margin: 50px;
+	
+}
+
+
 
 strong {
 	color: #ffffff;
@@ -28,28 +46,24 @@ strong {
 
 /* Change the font size, align and add a shadow of the level one header*/
 h1 {
-	font-size: 60px;
+	font-size: 6.0em;
 	text-shadow: 2px 2px 4px #ffff00;
 	text-align: center;
-	background-image:<img src="images/logo.jpg" alt=" club logo"/>
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	
 	
 }
 
 #content {
 	float: left;
-	margin: 20px;
+	margin: 30px;
+	overflow: auto;
 }
 
-#content2 {
-	float: right;
-
-}
 
 /* Change the font size, and center text of h2, h3, h4.*/
 h2, h3, h4 {
-	font-size: 2.0em;
+	color: #000;
+	font-size: 3.5em;
 	text-align: center;
 }
 /* Made a border for the navigation and performance and also centered the text.*/
