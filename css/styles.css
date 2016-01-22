@@ -1,6 +1,7 @@
 p {
 	color: #ffff00;
 	font-size: 1.5em;
+	text-shadow: 2px 2px 4px #000;
 	
 }
 
@@ -60,11 +61,12 @@ h1 {
 }
 
 
-/* Change the font size, and center text of h2, h3, h4.*/
+/* Change the font size, text shadow and center text of h2, h3, h4.*/
 h2, h3, h4 {
 	color: #000;
 	font-size: 3.5em;
 	text-align: center;
+	text-shadow: 2px 2px 4px #ffff00;
 }
 /* Made a border for the navigation and performance and also centered the text.*/
 
@@ -79,6 +81,7 @@ ul {
 	color: #ffff00;
 	font-size: 1.2em;
 	margin-bottom: 20px;
+	text-shadow: 2px 2px 4px #000;
 }
 
 /* align the links */
