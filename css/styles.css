@@ -18,7 +18,7 @@ body {
 	background-image: url("../images/group_prayer.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	
+	background-size: 100% 75%;
 }
 
 
@@ -27,12 +27,15 @@ body {
 /* Columns 1 of 2 and 2 of 2*/
 
 #column1of2 {
-	margin: 60px;
+	width: 50px
+	float: left;
 }
 
 #column2of2 {
-	text-align: center;
+	float: right;
 	margin: 60px;
+	
+	
 }
 
 
@@ -52,8 +55,8 @@ h1 {
 
 #content {
 	float: left;
-	margin: 30px;
-	overflow: auto;
+	
+	width: 1.5% 3.5%;
 }
 
 
@@ -74,11 +77,17 @@ ul {
 	padding: 15px;
 	margin: 0 auto;
 	list-style-type: none;
-	color: #ffff00;
 	font-size: 1.2em;
 	margin-bottom: 20px;
 	text-shadow: 2px 2px 4px #000;
+	color: #fff;
 }
+
+#current-page {
+color: #fff;
+
+}
+
 
 /* align the links */
 li {
@@ -93,13 +102,13 @@ a:visited {
 }
 
 a:hover {
-	color: #00ffff;
+	color: #000;
 	text-decoration: none;
 }
 
 a:active {
  
- 	color: #ffffff;
+ 	color: #fff;
 
 }
 /* 	Main Picture	*/
